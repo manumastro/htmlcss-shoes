@@ -1,0 +1,52 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.box{
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  height: 100vh;
+}
+
+#classic{
+  background-color: #ff0000;
+}
+
+#helfigher{
+  background-color: #008000;
+}
+
+#converse{
+  background-color: #ffff00;
+}
+
+.description{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.description .text{
+  margin: 0 auto;
+  color: #ffff00;
+  text-transform: uppercase;
+  font-size: 56px;
+  width: 75%;
+  text-align: center;
+}
+
+.description img{
+  padding-left: 85px;
+}
+
+.description .text.yellow{
+  color: #008000;
+}
